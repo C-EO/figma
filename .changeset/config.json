@@ -2,7 +2,7 @@
   "$schema": "https://unpkg.com/@changesets/config@2.2.0/schema.json",
   "changelog": ["@changesets/changelog-github", { "repo": "primer/figma" }],
   "commit": false,
-  "fixed": [],
+  "fixed": [["@primer/web"], ["@primer/api-test"]],
   "linked": [],
   "access": "public",
   "baseBranch": "main",
